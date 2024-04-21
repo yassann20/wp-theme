@@ -1,0 +1,2247 @@
+@charset "UTF-8";
+/*
+Theme Name: coffeeshop01
+Theme URL: テーマのサイトのURI
+Description: テーマの説明
+Author: Kaisei Yasuzaki
+Version: テーマのバージョン
+Tags: テーマの特徴を表すタグ（カンマ区切り/オプション）
+License: テーマのライセンス
+License URI: テーマのライセンスのURI
+*/
+@media screen and (min-width: 1500px) {
+  body {
+    width: 100%;
+    background-color: #F7E9C5;
+    overflow-x: hidden;
+  }
+  body h1 {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #f0f0f0;
+  }
+  body h2 {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #707070;
+  }
+  body h3 {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #707070;
+  }
+  body p {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: left;
+    color: #707070;
+    word-break: break-all;
+  }
+  /* blogページ内のh2およびp*/
+  body p#Blog-h2 {
+    width: 100%;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #707070;
+  }
+  body p#Blog-p {
+    width: 650px;
+    margin: 60px auto;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: left;
+    color: #707070;
+  }
+  header {
+    width: 100%;
+    height: auto;
+    /*============================
+    #Slider
+    ============================*/
+    /*============================
+    #Img-controll
+    ============================*/
+  }
+  header div#Menubar {
+    position: relative;
+    width: 1300px;
+    height: 60px;
+    border-radius: 30px;
+    background: #bb541f;
+    margin: 40px auto 0;
+    z-index: 100;
+    /*============================
+    #Logo
+    ============================*/
+    /*============================
+    #Nav-menu
+    ============================*/
+  }
+  header div#Menubar h1#Logo {
+    position: absolute;
+    left: 0;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    color: #f0f0f0;
+    margin-left: 150px;
+  }
+  header div#Menubar nav#Nav-menu {
+    width: auto;
+    height: 100%;
+  }
+  header div#Menubar nav#Nav-menu ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    width: auto;
+    height: 100%;
+    padding: 0 40px;
+  }
+  header div#Menubar nav#Nav-menu ul li {
+    height: 100%;
+    margin: 0 40px;
+  }
+  header div#Menubar nav#Nav-menu ul li a {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #f0f0f0;
+  }
+  header div#Slider {
+    position: relative;
+    display: flex;
+    width: 400%;
+    height: auto;
+    margin: -100px auto 0;
+    z-index: 10;
+    overflow-x: hidden;
+    transition: all 0.5s;
+  }
+  header div#Slider picture {
+    position: relative;
+    top: 0;
+    display: block;
+    width: 1500px;
+    height: 800px;
+    margin: 0 calc(50vw - 750px);
+  }
+  header div#Slider picture source {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  header div#Slider picture img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  header div#Img-controll {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 50px;
+    background: #f7e9c5;
+    margin: 40px auto 0;
+  }
+  header div#Img-controll span {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 25px;
+    border: 1px solid #707070;
+  }
+  main {
+    /*============================
+    #News
+    ============================*/
+    /*============================
+    #Blog-content
+    ============================*/
+    /*============================
+    #Topic
+    ============================*/
+    /*============================
+    #Menu
+    ============================*/
+    /*============================
+    #Reserve
+    ============================*/
+    /*============================
+    #Access
+    ============================*/
+  }
+  main div#News {
+    width: 100%;
+  }
+  main div#News h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+  main div#News div {
+    width: 1000px;
+    height: auto;
+    margin: 30px auto 120px;
+  }
+  main div#News div dl {
+    width: 100%;
+    height: 76px;
+    border-top: 1px solid #707070;
+  }
+  main div#News div dl a {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  main div#News div dl a dd {
+    display: block;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: left;
+    color: #707070;
+    margin: 0 30px 0 80px;
+  }
+  main div#News div dl a dd:nth-of-type(2) {
+    width: 81px;
+    height: 36px;
+    background: #fff;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+    border: 1px solid #707070;
+    margin: 0 30px 0 0;
+  }
+  main div#News div dl a dt {
+    display: block;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: left;
+    color: #707070;
+  }
+  main div#Blog-content {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+  }
+  main div#Blog-content dl {
+    width: 1200px;
+    height: 500px;
+    background: #fff;
+    border: 1px solid #707070;
+    margin: 20px 0;
+  }
+  main div#Blog-content dl a {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Blog-content dl a div.blog-img {
+    width: 395px;
+    height: 255px;
+    background-image: url("../photo/pc-img/blog-content.jpg ");
+    background-position: center;
+    background-size: cover;
+    margin: 122px 100px;
+  }
+  main div#Blog-content dl a div.blog-text {
+    width: 540px;
+    margin: 122px 0 0;
+  }
+  main div#Blog-content dl a div.blog-text dt {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #232323;
+  }
+  main div#Blog-content dl a div.blog-text dd {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #232323;
+    margin: 40px 0;
+  }
+  main div#Single {
+    width: 1200px;
+    height: auto;
+    word-break: break-all;
+    margin: 0 auto;
+  }
+  main div#Single div#Thumbnail, main div#Single div.blog-img {
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    margin: 100px 0;
+  }
+  main div#Single h2 {
+    width: 100%;
+    margin: 50px 0;
+  }
+  main div#Single h3 {
+    width: 100%;
+    margin: 50px 0;
+  }
+  main div#Single h4 {
+    width: 100%;
+    margin: 50px 0;
+  }
+  main div#Single p {
+    width: 100%;
+    margin: 50px 0;
+  }
+  main div#Topic {
+    width: 100%;
+    height: 1220px;
+    /*============================
+    #Coffee-topic
+    ============================*/
+    /*============================
+    #Shop-topic
+    ============================*/
+  }
+  main div#Topic div#Coffee-topic {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 610px;
+  }
+  main div#Topic div#Coffee-topic picture {
+    position: relative;
+    display: block;
+    width: 850px;
+    height: 500px;
+  }
+  main div#Topic div#Coffee-topic picture source {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Topic div#Coffee-topic picture img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Topic div#Coffee-topic div {
+    width: calc(100% - 850px);
+  }
+  main div#Topic div#Coffee-topic div h2 {
+    margin: 50px auto 0;
+  }
+  main div#Topic div#Coffee-topic div p {
+    width: 500px;
+    height: auto;
+    margin: 90px auto 0;
+  }
+  main div#Topic div#Shop-topic {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 610px;
+  }
+  main div#Topic div#Shop-topic picture {
+    position: relative;
+    display: block;
+    width: 850px;
+    height: 489px;
+    order: 2;
+  }
+  main div#Topic div#Shop-topic picture source {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Topic div#Shop-topic picture img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Topic div#Shop-topic div {
+    width: calc(100% - 850px);
+    order: 1;
+  }
+  main div#Topic div#Shop-topic div h2 {
+    margin: 50px auto 0;
+  }
+  main div#Topic div#Shop-topic div p {
+    width: 500px;
+    height: auto;
+    margin: 90px auto 0;
+  }
+  main div#Menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 720px;
+    background-color: #f3f3f3;
+  }
+  main div#Menu h2 {
+    width: 100%;
+    margin: 90px auto 35px;
+  }
+  main div#Menu div ul {
+    width: 550px;
+  }
+  main div#Menu div ul li {
+    width: 70%;
+    height: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15%;
+  }
+  main div#Menu div ul li span {
+    display: block;
+    width: 200px;
+    height: 1px;
+    background-color: black;
+  }
+  main div#Reserve {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+  }
+  main div#Reserve h2 {
+    width: 100%;
+    margin: 70px auto 35px;
+  }
+  main div#Reserve form {
+    width: 100%;
+  }
+  main div#Reserve form label {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    height: 129px;
+    border-top: solid 1px black;
+  }
+  main div#Reserve form label:nth-of-type(7) {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    height: 280px;
+    border-top: solid 1px black;
+  }
+  main div#Reserve form label div h3 {
+    width: 520px;
+    height: 100%;
+    padding-left: 70px;
+    text-align: left;
+  }
+  main div#Reserve form label input {
+    display: block;
+    width: 600px;
+    height: 60px;
+    background-color: #ffffff;
+    border: solid 1px gray;
+  }
+  main div#Reserve form label textarea {
+    display: block;
+    width: 600px;
+    height: 220px;
+    background-color: #ffffff;
+    border: solid 1px gray;
+  }
+  main div#Reserve form button {
+    display: block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    border: 1px solid #707070;
+    text-align: center;
+    margin: 0 auto;
+  }
+  main div#Access {
+    /*============================
+    #Map
+    ============================*/
+  }
+  main div#Access h2 {
+    margin: 120px auto 40px;
+  }
+  main div#Access div#Map {
+    width: 100%;
+  }
+  main div#Access div#Map iframe {
+    width: 100%;
+  }
+  main div#Access div {
+    width: 800px;
+    height: auto;
+    margin: 0 auto 185px;
+  }
+  main div#Access div h2 {
+    width: 100%;
+    margin: 45px auto 20px;
+  }
+  main div#Access div ul {
+    width: 100%;
+  }
+  main div#Access div ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 83px;
+    border-top: solid 1px gray;
+  }
+  main div#Access div ul li p {
+    width: 130px;
+    text-align: left;
+  }
+  main div#Access div ul li p:nth-of-type(2) {
+    width: calc(100% - 130px);
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 150px;
+    background: #bb541f;
+  }
+  footer p {
+    color: #F0F0F0;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1499px) {
+  body {
+    width: 100%;
+    background-color: #F7E9C5;
+    overflow-x: hidden;
+  }
+  body h1 {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #f0f0f0;
+  }
+  body h2 {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #707070;
+  }
+  body h3 {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #707070;
+  }
+  body p {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: left;
+    color: #707070;
+    word-break: break-all;
+  }
+  /* blogページ内のh2およびp*/
+  body p#Blog-h2 {
+    width: 100%;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #707070;
+  }
+  body p#Blog-p {
+    width: 600px;
+    margin: 60px auto;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: left;
+    color: #707070;
+  }
+  header {
+    width: 100%;
+    height: auto;
+    /*============================
+    #Slider
+    ============================*/
+    /*============================
+    #Img-controll
+    ============================*/
+  }
+  header div#Menubar {
+    position: relative;
+    width: 1100px;
+    height: 60px;
+    border-radius: 30px;
+    background: #bb541f;
+    margin: 40px auto 0;
+    z-index: 100;
+    /*============================
+    #Logo
+    ============================*/
+    /*============================
+    #Nav-menu
+    ============================*/
+  }
+  header div#Menubar h1#Logo {
+    position: absolute;
+    left: 0;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    color: #f0f0f0;
+    margin-left: 150px;
+  }
+  header div#Menubar nav#Nav-menu {
+    width: auto;
+    height: 100%;
+  }
+  header div#Menubar nav#Nav-menu ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    width: auto;
+    height: 100%;
+    padding: 0 40px;
+  }
+  header div#Menubar nav#Nav-menu ul li {
+    height: 100%;
+    margin: 0 40px;
+  }
+  header div#Menubar nav#Nav-menu ul li a {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #f0f0f0;
+  }
+  header div#Slider {
+    position: relative;
+    display: flex;
+    width: 400%;
+    height: auto;
+    margin: -100px auto 0;
+    z-index: 10;
+    overflow-x: hidden;
+    transition: all 0.5s;
+  }
+  header div#Slider picture {
+    position: relative;
+    top: 0;
+    display: block;
+    width: 1100px;
+    height: 586px;
+    margin: 0 calc(50vw - 550px);
+  }
+  header div#Slider picture source {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  header div#Slider picture img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  header div#Img-controll {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 50px;
+    background: #f7e9c5;
+    margin: 40px auto 0;
+  }
+  header div#Img-controll span {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 25px;
+    border: 1px solid #707070;
+  }
+  main {
+    /*============================
+    #News
+    ============================*/
+    /*============================
+    #Blog-content
+    ============================*/
+    /*============================
+    #Topic
+    ============================*/
+    /*============================
+    #Menu
+    ============================*/
+    /*============================
+    #Reserve
+    ============================*/
+    /*============================
+    #Access
+    ============================*/
+  }
+  main div#News {
+    width: 100%;
+  }
+  main div#News h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+  main div#News div {
+    width: 1000px;
+    height: auto;
+    margin: 30px auto 120px;
+  }
+  main div#News div dl {
+    width: 100%;
+    height: 76px;
+    border-top: 1px solid #707070;
+  }
+  main div#News div dl a {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  main div#News div dl a dd {
+    display: block;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: left;
+    color: #707070;
+    margin: 0 30px 0 80px;
+  }
+  main div#News div dl a dd:nth-of-type(2) {
+    width: 81px;
+    height: 36px;
+    background: #fff;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+    border: 1px solid #707070;
+    margin: 0 30px 0 0;
+  }
+  main div#News div dl a dt {
+    display: block;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: left;
+    color: #707070;
+  }
+  main div#Blog-content {
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+  }
+  main div#Blog-content dl {
+    width: 900px;
+    height: 400px;
+    background: #fff;
+    border: 1px solid #707070;
+    margin: 20px 0;
+  }
+  main div#Blog-content dl a {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Blog-content dl a div.blog-img {
+    width: 300px;
+    height: 200px;
+    background-image: url("../photo/pc-img/blog-content.jpg ");
+    background-position: center;
+    background-size: cover;
+    margin: 100px 50px;
+  }
+  main div#Blog-content dl a div.blog-text {
+    width: 450px;
+    margin: 50px 0 0;
+  }
+  main div#Blog-content dl a div.blog-text dt {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #232323;
+  }
+  main div#Blog-content dl a div.blog-text dd {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #232323;
+    margin: 40px 0;
+  }
+  main div#Single {
+    width: 1000px;
+    height: auto;
+    word-break: break-all;
+    margin: 0 auto;
+  }
+  main div#Single div#Thumbnail, main div#Single div.blog-img {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    margin: 50px 0;
+  }
+  main div#Single h2 {
+    width: 100%;
+    margin: 50px 0;
+  }
+  main div#Single h3 {
+    width: 100%;
+    margin: 50px 0;
+  }
+  main div#Single h4 {
+    width: 100%;
+    margin: 50px 0;
+  }
+  main div#Single p {
+    width: 100%;
+    margin: 50px 0;
+  }
+  main div#Topic {
+    width: 100%;
+    height: auto;
+    margin-bottom: 130px;
+    /*============================
+    #Coffee-topic
+    ============================*/
+    /*============================
+    #Shop-topic
+    ============================*/
+  }
+  main div#Topic div#Coffee-topic {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 450px;
+  }
+  main div#Topic div#Coffee-topic picture {
+    position: relative;
+    display: block;
+    width: 600px;
+    height: 350px;
+  }
+  main div#Topic div#Coffee-topic picture source {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Topic div#Coffee-topic picture img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Topic div#Coffee-topic div {
+    width: calc(100% - 600px);
+  }
+  main div#Topic div#Coffee-topic div h2 {
+    margin: 50px auto 0;
+  }
+  main div#Topic div#Coffee-topic div p {
+    width: 450px;
+    height: auto;
+    margin: 25px auto 0;
+  }
+  main div#Topic div#Shop-topic {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 450px;
+  }
+  main div#Topic div#Shop-topic picture {
+    position: relative;
+    display: block;
+    width: 600px;
+    height: 350px;
+    order: 2;
+  }
+  main div#Topic div#Shop-topic picture source {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Topic div#Shop-topic picture img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Topic div#Shop-topic div {
+    width: calc(100% - 600px);
+    order: 1;
+  }
+  main div#Topic div#Shop-topic div h2 {
+    margin: 50px auto 0;
+  }
+  main div#Topic div#Shop-topic div p {
+    width: 450px;
+    height: auto;
+    margin: 25px auto 0;
+  }
+  main div#Menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 720px;
+    background-color: #f3f3f3;
+  }
+  main div#Menu h2 {
+    width: 100%;
+    margin: 90px auto 35px;
+  }
+  main div#Menu div ul {
+    width: 550px;
+  }
+  main div#Menu div ul li {
+    width: 70%;
+    height: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15%;
+  }
+  main div#Menu div ul li span {
+    display: block;
+    width: 200px;
+    height: 1px;
+    background-color: black;
+  }
+  main div#Reserve {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+  }
+  main div#Reserve h2 {
+    width: 100%;
+    margin: 70px auto 35px;
+  }
+  main div#Reserve form {
+    width: 100%;
+  }
+  main div#Reserve form label {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    height: 129px;
+    border-top: solid 1px black;
+  }
+  main div#Reserve form label:nth-of-type(7) {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    height: 280px;
+    border-top: solid 1px black;
+  }
+  main div#Reserve form label div h3 {
+    width: 520px;
+    height: 100%;
+    padding-left: 70px;
+    text-align: left;
+  }
+  main div#Reserve form label input {
+    display: block;
+    width: 500px;
+    height: 60px;
+    background-color: #ffffff;
+    border: solid 1px gray;
+  }
+  main div#Reserve form label textarea {
+    display: block;
+    width: 600px;
+    height: 220px;
+    background-color: #ffffff;
+    border: solid 1px gray;
+  }
+  main div#Reserve form button {
+    display: block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    border: 1px solid #707070;
+    text-align: center;
+    margin: 0 auto;
+  }
+  main div#Access {
+    /*============================
+    #Map
+    ============================*/
+  }
+  main div#Access h2 {
+    margin: 120px auto 40px;
+  }
+  main div#Access div#Map {
+    width: 100%;
+  }
+  main div#Access div#Map iframe {
+    width: 100%;
+  }
+  main div#Access div {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto 185px;
+  }
+  main div#Access div h2 {
+    width: 100%;
+    margin: 45px auto 20px;
+  }
+  main div#Access div ul {
+    width: 100%;
+  }
+  main div#Access div ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 83px;
+    border-top: solid 1px gray;
+  }
+  main div#Access div ul li p {
+    width: 130px;
+    text-align: left;
+  }
+  main div#Access div ul li p:nth-of-type(2) {
+    width: calc(100% - 130px);
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 150px;
+    background: #bb541f;
+  }
+  footer p {
+    color: #F0F0F0;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1199px) {
+  body {
+    width: 100%;
+    background-color: #F7E9C5;
+    overflow-x: hidden;
+  }
+  body h1 {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #f0f0f0;
+  }
+  body h2 {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+    color: #707070;
+  }
+  body h3 {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #707070;
+  }
+  body p {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+    color: #707070;
+    word-break: break-all;
+  }
+  /* blogページ内のh2およびp*/
+  body p#Blog-h2 {
+    width: 100%;
+    font-family: Meiryo;
+    font-weight: normal;
+    text-align: center;
+    color: #707070;
+  }
+  body p#Blog-p {
+    width: 400px;
+    margin: 30px auto;
+    font-family: Meiryo;
+    font-weight: normal;
+    text-align: left;
+    color: #707070;
+  }
+  header {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    /*============================
+    #Slider
+    ============================*/
+    /*============================
+    #Img-controll
+    ============================*/
+  }
+  header div#Menubar {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: #bb541f;
+    margin: 0 auto 0;
+    z-index: 100;
+    /*============================
+    #Logo
+    ============================*/
+    /*============================
+    #Nav-menu
+    ============================*/
+  }
+  header div#Menubar h1#Logo {
+    position: absolute;
+    left: 0;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    color: #f0f0f0;
+    margin-left: 30px;
+  }
+  header div#Menubar nav#Nav-menu {
+    width: auto;
+    height: 100%;
+  }
+  header div#Menubar nav#Nav-menu ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    width: auto;
+    height: 100%;
+    padding: 0 25px;
+  }
+  header div#Menubar nav#Nav-menu ul li {
+    height: 100%;
+    margin: 0 25px;
+  }
+  header div#Menubar nav#Nav-menu ul li a {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #f0f0f0;
+  }
+  header div#Slider {
+    position: relative;
+    display: flex;
+    width: 400%;
+    height: auto;
+    margin: 0 auto 0;
+    z-index: 10;
+    overflow-x: hidden;
+    transition: all 0.5s;
+  }
+  header div#Slider picture {
+    position: relative;
+    top: 0;
+    display: block;
+    width: 600px;
+    height: 380px;
+    margin: 0 calc(50vw - 300px);
+  }
+  header div#Slider picture source {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  header div#Slider picture img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  header div#Img-controll {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: 25px;
+    background: #f7e9c5;
+    margin: 40px auto 0;
+  }
+  header div#Img-controll span {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 15px;
+    border: 1px solid #707070;
+  }
+  main {
+    /*============================
+    #News
+    ============================*/
+    /*============================
+    #Blog-content
+    ============================*/
+    /*============================
+    #Topic
+    ============================*/
+    /*============================
+    #Menu
+    ============================*/
+    /*============================
+    #Reserve
+    ============================*/
+    /*============================
+    #Access
+    ============================*/
+  }
+  main div#News {
+    width: 100%;
+  }
+  main div#News h2 {
+    width: 100%;
+    text-align: center;
+    margin: 35px auto 0;
+  }
+  main div#News div {
+    width: 600px;
+    height: auto;
+    margin: 30px auto 120px;
+  }
+  main div#News div dl {
+    width: 100%;
+    height: 64px;
+    border-top: 1px solid #707070;
+  }
+  main div#News div dl a {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  main div#News div dl a dd {
+    display: block;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    color: #707070;
+    margin: 0 30px 0 0;
+  }
+  main div#News div dl a dd:nth-of-type(2) {
+    width: 70px;
+    height: 20px;
+    background: #fff;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #707070;
+    border: 1px solid #707070;
+    margin: 0 30px 0 0;
+  }
+  main div#News div dl a dt {
+    display: block;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    color: #707070;
+  }
+  main div#Blog-content {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+  }
+  main div#Blog-content dl {
+    width: 500px;
+    height: auto;
+    background: #fff;
+    border: 1px solid #707070;
+    margin: 20px auto;
+  }
+  main div#Blog-content dl a {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Blog-content dl a div.blog-img {
+    width: 400px;
+    height: 230px;
+    background-image: url("../photo/pc-img/blog-content.jpg ");
+    background-position: center;
+    background-size: cover;
+    margin: 50px 50px;
+  }
+  main div#Blog-content dl a div.blog-text {
+    width: 400px;
+    margin: 0 auto 0;
+  }
+  main div#Blog-content dl a div.blog-text dt {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #232323;
+  }
+  main div#Blog-content dl a div.blog-text dd {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #232323;
+    margin: 40px 0;
+  }
+  main div#Single {
+    width: 500px;
+    height: auto;
+    word-break: break-all;
+    margin: 0 auto;
+  }
+  main div#Single div#Thumbnail, main div#Single div.blog-img {
+    width: 100%;
+    height: 280px;
+    background-position: center;
+    background-size: cover;
+    margin: 20px 0;
+  }
+  main div#Single h2 {
+    width: 100%;
+    margin: 20px 0;
+  }
+  main div#Single h3 {
+    width: 100%;
+    margin: 20px 0;
+  }
+  main div#Single h4 {
+    width: 100%;
+    margin: 20px 0;
+  }
+  main div#Single p {
+    width: 100%;
+    margin: 20px 0;
+  }
+  main div#Topic {
+    width: 100%;
+    height: auto;
+    margin-bottom: 130px;
+    /*============================
+    #Coffee-topic
+    ============================*/
+    /*============================
+    #Shop-topic
+    ============================*/
+  }
+  main div#Topic div#Coffee-topic {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    margin: 0 auto;
+  }
+  main div#Topic div#Coffee-topic picture {
+    position: relative;
+    display: block;
+    width: 700px;
+    height: 433px;
+    margin: 0 auto;
+  }
+  main div#Topic div#Coffee-topic picture source {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Topic div#Coffee-topic picture img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Topic div#Coffee-topic div {
+    width: 100%;
+  }
+  main div#Topic div#Coffee-topic div h2 {
+    margin: 50px auto 0;
+  }
+  main div#Topic div#Coffee-topic div p {
+    width: 450px;
+    height: auto;
+    margin: 50px auto 100px;
+  }
+  main div#Topic div#Shop-topic {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    margin: 0 auto;
+  }
+  main div#Topic div#Shop-topic picture {
+    position: relative;
+    display: block;
+    width: 700px;
+    height: 427px;
+    margin: 0 auto;
+  }
+  main div#Topic div#Shop-topic picture source {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Topic div#Shop-topic picture img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Topic div#Shop-topic div {
+    width: 100%;
+  }
+  main div#Topic div#Shop-topic div h2 {
+    margin: 50px auto 0;
+  }
+  main div#Topic div#Shop-topic div p {
+    width: 450px;
+    height: auto;
+    margin: 50px auto 100px;
+  }
+  main div#Menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #f3f3f3;
+    padding-bottom: 100px;
+  }
+  main div#Menu h2 {
+    width: 100%;
+    margin: 90px auto 35px;
+  }
+  main div#Menu div ul {
+    width: 550px;
+  }
+  main div#Menu div ul li {
+    width: 70%;
+    height: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15%;
+  }
+  main div#Menu div ul li span {
+    display: block;
+    width: 200px;
+    height: 1px;
+    background-color: black;
+  }
+  main div#Reserve {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  main div#Reserve h2 {
+    width: 100%;
+    margin: 70px auto 35px;
+  }
+  main div#Reserve form {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main div#Reserve form label {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  main div#Reserve form label:nth-of-type(7) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  main div#Reserve form label div {
+    width: 500px;
+    height: auto;
+  }
+  main div#Reserve form label div h3 {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    margin: 40px auto;
+  }
+  main div#Reserve form label input {
+    display: block;
+    width: 500px;
+    height: 60px;
+    background-color: #ffffff;
+    border: solid 1px gray;
+  }
+  main div#Reserve form label textarea {
+    display: block;
+    width: 500px;
+    height: 220px;
+    background-color: #ffffff;
+    border: solid 1px gray;
+  }
+  main div#Reserve form button {
+    display: block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    border: 1px solid #707070;
+    text-align: center;
+    margin: 40px auto 0;
+  }
+  main div#Access {
+    /*============================
+    #Map
+    ============================*/
+  }
+  main div#Access h2 {
+    margin: 120px auto 40px;
+  }
+  main div#Access div#Map {
+    width: 100%;
+  }
+  main div#Access div#Map iframe {
+    width: 100%;
+    height: 400px;
+  }
+  main div#Access div {
+    width: 500px;
+    height: auto;
+    margin: 0 auto 160px;
+  }
+  main div#Access div h2 {
+    width: 100%;
+    margin: 45px auto 20px;
+  }
+  main div#Access div ul {
+    width: 100%;
+  }
+  main div#Access div ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 83px;
+    border-top: solid 1px gray;
+  }
+  main div#Access div ul li:nth-of-type(3) {
+    border-bottom: solid 1px gray;
+  }
+  main div#Access div ul li p {
+    width: 130px;
+    text-align: left;
+  }
+  main div#Access div ul li p:nth-of-type(2) {
+    width: calc(100% - 130px);
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background: #bb541f;
+  }
+  footer p {
+    color: #F0F0F0;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 699px) {
+  body {
+    width: 100%;
+    background-color: #F7E9C5;
+    overflow-x: hidden;
+  }
+  body h1 {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #f0f0f0;
+  }
+  body h2 {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+    color: #707070;
+  }
+  body h3 {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #707070;
+  }
+  body p {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: left;
+    color: #707070;
+    word-break: break-all;
+  }
+  /* blogページ内のh2およびp*/
+  body p#Blog-h2 {
+    width: 100%;
+    font-family: Meiryo;
+    font-weight: normal;
+    text-align: center;
+    color: #707070;
+  }
+  body p#Blog-p {
+    width: 300px;
+    margin: 20px auto;
+    font-family: Meiryo;
+    font-weight: normal;
+    text-align: left;
+    color: #707070;
+  }
+  header {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    /*============================
+    #Slider
+    ============================*/
+    /*============================
+    #Img-controll
+    ============================*/
+  }
+  header div#Menubar {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: #bb541f;
+    margin: 0 auto 0;
+    z-index: 100;
+    /*============================
+    #Logo
+    ============================*/
+    /*============================
+    #Nav-menu
+    ============================*/
+  }
+  header div#Menubar h1#Logo {
+    position: absolute;
+    left: 0;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    color: #f0f0f0;
+    margin-left: 30px;
+  }
+  header div#Menubar nav#Nav-menu {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: #bb541f;
+    transition: all 0.3s;
+    transform: translateX(100%);
+  }
+  header div#Menubar nav#Nav-menu.nav-active {
+    transform: translateX(0);
+  }
+  header div#Menubar nav#Nav-menu ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: 100%;
+    padding: 0 25px;
+  }
+  header div#Menubar nav#Nav-menu ul li {
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+  }
+  header div#Menubar nav#Nav-menu ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    color: #f0f0f0;
+  }
+  header div#Menubar div#Hum {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    right: 0;
+    z-index: 100;
+  }
+  header div#Menubar div#Hum span {
+    position: absolute;
+    left: 15px;
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    transition: all 0.3s;
+  }
+  header div#Menubar div#Hum span#span1 {
+    top: 18px;
+  }
+  header div#Menubar div#Hum span#span2 {
+    top: 26px;
+  }
+  header div#Menubar div#Hum span#span3 {
+    top: 34px;
+  }
+  header div#Menubar div#Hum span#span1.active1 {
+    top: 26px;
+    transform: rotate(225deg);
+  }
+  header div#Menubar div#Hum span#span2.active2 {
+    display: none;
+  }
+  header div#Menubar div#Hum span#span3.active3 {
+    top: 26px;
+    transform: rotate(-225deg);
+  }
+  header div#Slider {
+    position: relative;
+    display: flex;
+    width: 400%;
+    height: auto;
+    margin: 0 auto 0;
+    z-index: 10;
+    overflow-x: hidden;
+    transition: all 0.5s;
+  }
+  header div#Slider picture {
+    position: relative;
+    top: 0;
+    display: block;
+    width: 300px;
+    height: 160px;
+    margin: 0 auto;
+  }
+  header div#Slider picture source {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  header div#Slider picture img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  header div#Img-controll {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: 25px;
+    background: #f7e9c5;
+    margin: 20px auto 0;
+  }
+  header div#Img-controll span {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 15px;
+    border: 1px solid #707070;
+  }
+  main {
+    /*============================
+    #News
+    ============================*/
+    /*============================
+    #Blog-content
+    ============================*/
+    /*============================
+    #Topic
+    ============================*/
+    /*============================
+    #Menu
+    ============================*/
+    /*============================
+    #Reserve
+    ============================*/
+    /*============================
+    #Access
+    ============================*/
+  }
+  main div#News {
+    width: calc(100% - 70px);
+    margin: 0 auto;
+  }
+  main div#News h2 {
+    width: 100%;
+    text-align: center;
+    margin: 35px auto 0;
+  }
+  main div#News div {
+    width: 100%;
+    height: auto;
+    margin: 30px auto 120px;
+  }
+  main div#News div dl {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #707070;
+  }
+  main div#News div dl:nth-last-of-type(1) {
+    border-bottom: 1px solid #707070;
+  }
+  main div#News div dl a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  main div#News div dl a dd {
+    display: block;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    color: #707070;
+    margin: 10px 30px 10px 0;
+  }
+  main div#News div dl a dd:nth-of-type(2) {
+    width: 70px;
+    height: 20px;
+    background: #fff;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #707070;
+    border: 1px solid #707070;
+    margin: 10px 30px 10px 0;
+  }
+  main div#News div dl a dt {
+    width: 100%;
+    display: block;
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #707070;
+  }
+  main div#Blog-content {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+  main div#Blog-content dl {
+    width: 300px;
+    height: auto;
+    background: #fff;
+    border: 1px solid #707070;
+    margin: 20px auto;
+  }
+  main div#Blog-content dl a {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Blog-content dl a div.blog-img {
+    width: 300px;
+    height: 200px;
+    background-image: url("../photo/pc-img/blog-content.jpg ");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+  }
+  main div#Blog-content dl a div.blog-text {
+    width: 220px;
+    margin: 0 auto;
+  }
+  main div#Blog-content dl a div.blog-text dt {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+    color: #232323;
+    margin-top: 25px;
+  }
+  main div#Blog-content dl a div.blog-text dd {
+    font-family: Meiryo;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;
+    color: #232323;
+    margin: 25px 0;
+  }
+  main div#Single {
+    width: 300px;
+    height: auto;
+    word-break: break-all;
+    margin: 0 auto;
+  }
+  main div#Single div#Thumbnail, main div#Single div.blog-img {
+    width: 100%;
+    height: 170px;
+    background-position: center;
+    background-size: cover;
+    margin: 20px 0;
+  }
+  main div#Single h2 {
+    width: 100%;
+    margin: 20px 0;
+  }
+  main div#Single h3 {
+    width: 100%;
+    margin: 20px 0;
+  }
+  main div#Single h4 {
+    width: 100%;
+    margin: 20px 0;
+  }
+  main div#Single p {
+    width: 100%;
+    margin: 20px 0;
+  }
+  main div#Topic {
+    width: 100%;
+    height: auto;
+    /*============================
+    #Coffee-topic
+    ============================*/
+    /*============================
+    #Shop-topic
+    ============================*/
+  }
+  main div#Topic div#Coffee-topic {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    margin: 0 auto;
+  }
+  main div#Topic div#Coffee-topic picture {
+    position: relative;
+    display: block;
+    width: 320px;
+    height: 213px;
+    margin: 0 auto;
+  }
+  main div#Topic div#Coffee-topic picture source {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Topic div#Coffee-topic picture img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Topic div#Coffee-topic div {
+    width: 100%;
+  }
+  main div#Topic div#Coffee-topic div h2 {
+    margin: 30px auto 0;
+  }
+  main div#Topic div#Coffee-topic div p {
+    width: 300px;
+    height: auto;
+    margin: 30px auto 60px;
+  }
+  main div#Topic div#Shop-topic {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    margin: 0 auto;
+  }
+  main div#Topic div#Shop-topic picture {
+    position: relative;
+    display: block;
+    width: 320px;
+    height: 214px;
+    margin: 0 auto;
+  }
+  main div#Topic div#Shop-topic picture source {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Topic div#Shop-topic picture img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main div#Topic div#Shop-topic div {
+    width: 100%;
+  }
+  main div#Topic div#Shop-topic div h2 {
+    margin: 30px auto 0;
+  }
+  main div#Topic div#Shop-topic div p {
+    width: 300px;
+    height: auto;
+    margin: 30px auto 60px;
+  }
+  main div#Menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #f3f3f3;
+    padding-bottom: 100px;
+  }
+  main div#Menu h2 {
+    width: 100%;
+    margin: 90px auto 35px;
+  }
+  main div#Menu div ul {
+    width: 300px;
+  }
+  main div#Menu div ul li {
+    width: 70%;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15%;
+    text-align: center;
+  }
+  main div#Menu div ul li span {
+    display: none;
+  }
+  main div#Reserve {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  main div#Reserve h2 {
+    width: 100%;
+    margin: 70px auto 35px;
+  }
+  main div#Reserve form {
+    width: 100%;
+  }
+  main div#Reserve form label {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+  main div#Reserve form label:nth-of-type(7) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+  main div#Reserve form label div {
+    width: 600px;
+    height: auto;
+  }
+  main div#Reserve form label div h3 {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    margin: 20px auto;
+  }
+  main div#Reserve form label input {
+    display: block;
+    width: 600px;
+    height: 60px;
+    background-color: #ffffff;
+    border: solid 1px gray;
+  }
+  main div#Reserve form label textarea {
+    display: block;
+    width: 600px;
+    height: 220px;
+    background-color: #ffffff;
+    border: solid 1px gray;
+  }
+  main div#Reserve form button {
+    display: block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    border: 1px solid #707070;
+    text-align: center;
+    margin: 40px auto 0;
+  }
+  main div#Access {
+    /*============================
+    #Map
+    ============================*/
+  }
+  main div#Access h2 {
+    margin: 120px auto 40px;
+  }
+  main div#Access div#Map {
+    width: 100%;
+  }
+  main div#Access div#Map iframe {
+    width: 100%;
+    height: 200px;
+  }
+  main div#Access div {
+    width: 300px;
+    height: auto;
+    margin: 0 auto 40px;
+  }
+  main div#Access div h2 {
+    width: 100%;
+    margin: 45px auto 20px;
+  }
+  main div#Access div ul {
+    width: 100%;
+  }
+  main div#Access div ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    height: auto;
+    border-top: solid 1px gray;
+  }
+  main div#Access div ul li:nth-of-type(3) {
+    border-bottom: solid 1px gray;
+  }
+  main div#Access div ul li p {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+  }
+  main div#Access div ul li p:nth-of-type(2) {
+    width: 250px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin: 20px auto;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background: #bb541f;
+  }
+  footer p {
+    color: #F0F0F0;
+  }
+}/*# sourceMappingURL=style.css.map */
